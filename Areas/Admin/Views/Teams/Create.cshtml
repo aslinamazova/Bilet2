@@ -1,0 +1,37 @@
+﻿@model CreateTeamVM;
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <div asp-validation-summary="ModelOnly"></div>
+                <form>
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Profession" class="form-label"></label>
+                        <input asp-for="Profession" class="form-control">
+                        <span asp-validation-for="Profession"></span>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
