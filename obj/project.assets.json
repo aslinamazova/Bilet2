@@ -10192,26 +10192,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CA.R215.09\\.nuget\\packages\\": {}
+    "/Users/eslinamazova/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CA.R215.09\\Desktop\\Bizland\\Bizland.csproj",
+      "projectUniqueName": "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj",
       "projectName": "Bizland",
-      "projectPath": "C:\\Users\\CA.R215.09\\Desktop\\Bizland\\Bizland.csproj",
-      "packagesPath": "C:\\Users\\CA.R215.09\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CA.R215.09\\Desktop\\Bizland\\obj\\",
+      "projectPath": "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj",
+      "packagesPath": "/Users/eslinamazova/.nuget/packages/",
+      "outputPath": "/Users/eslinamazova/Desktop/Bilet2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CA.R215.09\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/eslinamazova/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10272,7 +10272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

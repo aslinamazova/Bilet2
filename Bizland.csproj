@@ -19,6 +19,10 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Utilities\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Utilities\" />
+  </ItemGroup>
 </Project>
