@@ -20,9 +20,15 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Utilities\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Account\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Utilities\" />
+    <None Remove="ViewModels\" />
+    <None Remove="ViewModels\Account\" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
 </Project>

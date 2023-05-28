@@ -3,12 +3,14 @@ using Bizland.DAL;
 using Bizland.Models;
 using Bizland.Utilities.Constants;
 using Bizland.Utilities.Extensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bizland.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles ="Admin")]
 public class TeamsController : Controller
 {
     private readonly AppDbContext _context;
@@ -19,6 +21,8 @@ public class TeamsController : Controller
         _context = context;
         _webHostEnvironment = webHostEnvironment;
     }
+
+    [AllowAnonymous]
     public async Task<IActionResult> Index()
     {
         List<Team> teams= await _context.Teams.Where(t => !t.IsDeleted).OrderByDescending(t => t.Id).ToListAsync();

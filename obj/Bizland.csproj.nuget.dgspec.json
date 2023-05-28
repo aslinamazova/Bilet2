@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj": {}
+    "/Users/eslinamazova/Desktop/IMTAHAN/Bilet2/Bizland.csproj": {}
   },
   "projects": {
-    "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj": {
+    "/Users/eslinamazova/Desktop/IMTAHAN/Bilet2/Bizland.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj",
+        "projectUniqueName": "/Users/eslinamazova/Desktop/IMTAHAN/Bilet2/Bizland.csproj",
         "projectName": "Bizland",
-        "projectPath": "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj",
+        "projectPath": "/Users/eslinamazova/Desktop/IMTAHAN/Bilet2/Bizland.csproj",
         "packagesPath": "/Users/eslinamazova/.nuget/packages/",
-        "outputPath": "/Users/eslinamazova/Desktop/Bilet2/obj/",
+        "outputPath": "/Users/eslinamazova/Desktop/IMTAHAN/Bilet2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eslinamazova/.nuget/NuGet/NuGet.Config"

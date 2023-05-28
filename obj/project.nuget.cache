@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9uH/7ICf0DLGFwf1YNE9d+bv02szjBmLTwHBKPVJUFvHwEQ6z9wAP84+xCS2w/0Sg2BvTswyI0hY4VYC9YzejA==",
+  "dgSpecHash": "OW8YHlZyyY1qRfi/AoAfoMjwRkfY4lbM327VYy2UalSPzvUtkPbafWJQtlOujfkmrgcb/ipOk3A/ItaAgFrLdA==",
   "success": true,
-  "projectFilePath": "/Users/eslinamazova/Desktop/Bilet2/Bizland.csproj",
+  "projectFilePath": "/Users/eslinamazova/Desktop/IMTAHAN/Bilet2/Bizland.csproj",
   "expectedPackageFiles": [
     "/Users/eslinamazova/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/eslinamazova/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
