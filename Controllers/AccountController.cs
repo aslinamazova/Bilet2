@@ -64,6 +64,7 @@ public class AccountController : Controller
         if (user==null)
         {
             ModelState.AddModelError("", "Email or password wrong");
+            return View(login);
         }
 
         var sigingResult = await _signInManager.CheckPasswordSignInAsync(user, login.Password,true);
@@ -75,7 +76,7 @@ public class AccountController : Controller
          await _signInManager.SignInAsync(user, login.RememberMe);
         if (Url.IsLocalUrl(ReturnUrl))
         {
-            return RedirectToAction(ReturnUrl);
+            return Redirect(ReturnUrl);
         }
         return RedirectToAction("Index","Home");
     }
